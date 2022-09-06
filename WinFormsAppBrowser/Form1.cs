@@ -192,9 +192,7 @@ namespace WinFormsAppBrowser
 
         private void buttonBookmarks_Click(object sender, EventArgs e)
         {
-            var formFavorit = new FormFavorit();
-            if (DialogResult == DialogResult.OK)
-            formFavorit.Show();
+            MessageBox.Show("🌍 Browser \n ver1.0\n СПД121.\n Система: Windows 10 64-bit.", "О программе.");
         }
 
         private void buttonFavorit_Click(object sender, EventArgs e)
